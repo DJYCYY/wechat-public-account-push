@@ -13,17 +13,23 @@ export const config = {
     TEMPLATE_ID: "	IYZk4275UI1Kmu1GuxeXJ_h_mZcGxAUl_ZU637Qn8JY",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "uPnmA0JCzSrS_pYFJ82oY49GyVUZPtpwMc0KlKpa8R0",
+    CALLBACK_TEMPLATE_ID: "oc-a76ZfhoPQk34GtzluhEztmF8w",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-    
+    // [{
+    //   name: "张三",
+    //   id: "wxafasdasdd-zxfvsdfd"
+    // },
+    // {
+    //   name: "李四",
+    //   id: "wxafasdasdd-zxfvsdfd"
+    // }]
     USERS: [
-      {name: '宝宝', id: "DingJY0317"},
-      {name: '宝宝', id: "DingJY0317"},
-    ],
+      {name: '老婆0', id: "oc-a76ZfhoPQk34GtzluhEztmF8w"}, 
+      ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "circle2yy"}, 
+      {name: '自己',id: "oc-a76ZfhoPQk34GtzluhEztmF8w"}, 
     ],
      
     /**
@@ -44,20 +50,20 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "猪猪猪", "year": "2000", "date": "03-17"},
-      {"type": "生日", "name": "媛媛的猪", "year": "2000", "date": "03-17"},
+      {"type": "生日", "name": "dd", "year": "2000", "date": "03-17"},
+      {"type": "生日", "name": "cc", "year": "2000", "date": "10-02"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
     // 在一起的日子，格式同上
     LOVE_DATE: "2022-07-30",
     // 结婚纪念日
-//     MARRY_DATE: "2022-07-30",
+    MARRY_DATE: "2020-01-04",
 
 
     /** 每日一言 */
