@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "fd8d2891f0024698bc6694174acff62c",
 
     // 模板消息id
-    TEMPLATE_ID: "oqzCZxk1Sj2vv1MjWwdjaGN4CsJErHykXo47mZssJn4",
+    TEMPLATE_ID: "IYZk4275UI1Kmu1GuxeXJ_h_mZcGxAUl_ZU637Qn8JY",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "o0tgM0BLEubYZVhY24MEfCN1itgHqxCEDDqeurUEVCQ",
@@ -84,8 +84,7 @@ export const config = {
 
 // {{note_en.DATA}}  
 // {{note_ch.DATA}}
-// {{note_en.DATA}}  
-// {{one_talk.DATA}}
+
 
 // 共推送 {{need_post_num.DATA}}  人
 // 成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
