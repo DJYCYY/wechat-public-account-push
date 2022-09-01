@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "fd8d2891f0024698bc6694174acff62c",
 
     // 模板消息id
-    TEMPLATE_ID: "	IYZk4275UI1Kmu1GuxeXJ_h_mZcGxAUl_ZU637Qn8JY",
+    TEMPLATE_ID: "IYZk4275UI1Kmu1GuxeXJ_h_mZcGxAUl_ZU637Qn8JY",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "oc-a76ZfhoPQk34GtzluhEztmF8w",
@@ -25,7 +25,7 @@ export const config = {
     //   id: "wxafasdasdd-zxfvsdfd"
     // }]
     USERS: [
-      {name: '老婆0', id: "oc-a76ZfhoPQk34GtzluhEztmF8w"}, 
+      {name: '我', id: "oc-a76ZfhoPQk34GtzluhEztmF8w"}, 
       ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -62,9 +62,7 @@ export const config = {
 
     // 在一起的日子，格式同上
     LOVE_DATE: "2022-07-30",
-    // 结婚纪念日
-    MARRY_DATE: "2020-01-04",
-
+   
 
     /** 每日一言 */
 
@@ -81,7 +79,6 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
