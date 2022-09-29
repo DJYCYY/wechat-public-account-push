@@ -40,9 +40,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "安徽",
+    PROVINCE: "湖北",
     // 所在城市
-    CITY: "合肥",
+    CITY: "武汉",
 
     /** 重要节日相关 */
 
